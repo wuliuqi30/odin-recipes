@@ -1,0 +1,44 @@
+/*styles*/
+
+h1 {
+    font-size: 40px;
+    color:#a52a2a;
+    background-color: #00ffff;
+}
+
+h2 {
+    font-size: 35px;
+    color:#38a52a;
+    background-color: #040314;
+}
+
+h3 {
+    font-size: 25px;
+    color:#a52a82;
+    background-color: #aeff00;
+}
+
+ul {
+    font-size: 18px;
+    color:#ffff00;
+    background-color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+    font-size: 18px;
+    color:#6200ff;
+    background-color: #c02c2c;
+}
+
+.description{
+    font-size: 20px;
+    color:#ab0909;
+}
+
+p{
+    font-size: 20px;
+    color:#ab0972;
+    background-color: #000;
+    font-family: "Lucida Console","Times New Roman",serif
+}
