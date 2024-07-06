@@ -2,43 +2,83 @@
 
 h1 {
     font-size: 40px;
-    color:#a52a2a;
-    background-color: #00ffff;
+    color:white;
+    background-color: #000;
+    padding: 8px;
+    border: 4px, gold,solid;
+    margin-bottom: 20px;
+    width: fit-content;
 }
 
 h2 {
     font-size: 35px;
-    color:#38a52a;
-    background-color: #040314;
+    padding: 6px;
 }
 
 h3 {
     font-size: 25px;
     color:#a52a82;
     background-color: #aeff00;
+    padding: 6px;
 }
 
 ul {
     font-size: 18px;
-    color:#ffff00;
-    background-color: #000;
+    color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ol {
     font-size: 18px;
-    color:#6200ff;
+    color:white;
     background-color: #c02c2c;
+    padding: 40px;
+    width: fit-content;
+    font-weight: 800;
 }
 
 .description{
     font-size: 20px;
-    color:#ab0909;
+    color:#000000;
 }
 
 p{
     font-size: 20px;
-    color:#ab0972;
-    background-color: #000;
-    font-family: "Lucida Console","Times New Roman",serif
+    color:#000;
+    font-family: "Lucida Console","Times New Roman",serif;
+    padding: 1em;
 }
+
+.recipe-list {
+    color: #000;
+    padding: 2em;
+    margin:10px;
+}
+
+.recipe-link {
+    color:black;
+    padding:10px;
+    margin:10px;
+    border: 2px;
+    display:inline-block;
+}
+
+#idthing{
+    background-color:#ff0000;
+    color:#000;
+}
+
+/* li{
+    color:black;
+} */
+
+.recipe-steps{
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    width: 50%;
+}
+
+.subingredient-heading{
+    width:fit-content;
+    }
